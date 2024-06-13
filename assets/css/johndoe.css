@@ -92,6 +92,11 @@ p {
   margin-bottom: 1rem;
 }
 
+.active ,.all, .fullstack, .frontend, .backend{
+  width: 50%;
+  text-align: center;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -11167,7 +11172,7 @@ p {
   border-radius: 0;
   padding-bottom: 4px;
   margin: 0 auto 20px;
-  max-width: 600px;
+  max-width: 700px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11179,6 +11184,7 @@ p {
 }
 
 .portfolio .filters a {
+  width: 100%;
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
@@ -11190,7 +11196,6 @@ p {
   padding: 4px 10px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
-  width: 200px;
 
 }
 
